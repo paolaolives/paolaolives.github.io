@@ -1,0 +1,70 @@
+body {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #660000;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #cc0000;
+    font-family: 'Cinzel', serif;
+}
+
+.quote {
+    font-style: italic;
+    color: #990000;
+}
+
+main {
+    padding: 20px;
+}
+
+.week {
+    margin-bottom: 30px;
+    border: 1px solid #660000;
+    padding: 15px;
+    background-color: #1c1c1c;
+}
+
+.week h2 {
+    color: #e60000;
+}
+
+.exercise {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-top: 2px solid #660000;
+}
+
+button {
+    background-color: #660000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+}
+
+button:hover {
+    background-color: #990000;
+}
